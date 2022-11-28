@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            position: relative;
+            top: 30px;
+        }
+        .button_1 {
+            font-size:20px;
+			color: white;
+            background: black;
+            font-weight:bold;
+            border-bottom: solid 4px #FFA000;
+            border-radius: 15px 15px 0 0;
+            transition: .4s;
+			width:150px;
+			padding:4px 4px;
+            }
+            .button_1:hover {
+                background-color:#002ead;
+                transition: 0.7s;
+            }
+            body
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+            }
+            .input_box{
+                    font-size:18px;
+                    padding:10px 10px 10px 5px;
+                    display:block;
+                    width:300px;
+                    border:none;
+                    border-bottom:1px solid #757575;
+                }
+                h1
+            {
+                color: white;
+                background-color: black;
+                width: 200px;
+                border-radius: 10px;
+                box-shadow: 2px 2px 2px black;
+            }
+    </style>
+</head>
+<body>
+    <header style='font-size: 30px; color: white; background-color:DarkCyan; text-shadow: 2px 2px 2px black;font-weight:bold; padding: 6px 6px; margin:0; font-family:arial; width:1600px; position:relative; right:10px; bottom: 10px;'>Lab Technician Login</header>
+    <div class="container" align="center">
+    <form action="labtechnician_homepage.php" method="POST">
+        <h1>Username</h1>
+        <input type="text" name="username" placeholder="username" required class="input_box">
+        <h1>Password</h1>
+        <input type="password" name="password" placeholder="password" class="input_box" required><br><br>
+        <input type="submit" name="submit" value="login" class="button_1">
+    </form>
+    </div>
+</body>
+</html>
