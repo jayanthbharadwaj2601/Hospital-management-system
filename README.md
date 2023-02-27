@@ -1,6 +1,9 @@
 # Hospital-management-system
 Hospital management Application to manage users such as patient,doctor,pharmacist,receptionist and lab technician
 
+Attributions:
+  css buttons: Geeksforgeeks
+
 <h1>Landing Page:</h1>
 <img width="960" alt="Landing page" src="https://user-images.githubusercontent.com/73576290/204229397-f1bc1345-6af8-4cbf-9706-98f7278977ca.PNG">
 <h1> User Registration </h1>
